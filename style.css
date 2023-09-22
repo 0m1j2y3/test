@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #656567;
+}
+
+body{
+    font-family: 'NanumGothic';
+    font-size: 12px;
+    line-height: 22px;
+    color: #656567;
+    min-width: 1000px;
+}
+
+/* 고정 */
+
+#fixed{
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* 헤더 */
+
+header{
+    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: calc(100% - 97px);
+}
+
+header li{
+    width: 20%;
+    text-align: center;
+}
+
+header a{
+    display: block;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #6b9b2e;
+}
+
+/* 상단 배너 */
+.banner{
+    width: 100%;
+    margin-top: 125px;
+    display: block;
+}
+
+/* 레시피 */
+
+section{
+    background-color: #eee;
+}
+
+.section_in{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 70px 0 80px;
+}
+
+.section_in ul{
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    font-size: 20px;
+    color: #6b9b2e;
+    margin-bottom: 50px;
+}
+
+.btn{
+    display: inline-block;
+    margin: 60px;
+    padding: 10px ;
+    color: #fff;
+    background-color: #6b9b2e;
+}
+
+.section_in p{
+    margin: 10px;
+    color: #999;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #666;
+}
+.btn:hover{
+    background-color: #3c5719;
+}
+
+/* 하단 */
+.green{
+    background:url(./images/bg.jpg) no-repeat center top;
+    height: 640px;
+}
+
+.green_in{
+    width: 570px;
+    margin: auto;
+    padding: 100px;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.text{
+    margin-top: 100px;
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #6b9b2e;
+    margin-bottom: 5px;
+}
+
+.text a{
+    display: inline-block;
+    padding: 15px;
+    background-color: #6b9b2e;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.text a:hover{
+    background-color: #3c5719;
+}
+
+/* 푸터 */
+footer{
+    background-color: #666;
+    padding: 30px 0;
+}
+
+.footer_in{
+    width: 1000px;
+    margin: auto;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+
+.bottom{
+    margin: auto;
+    text-align: center;
+}
+
+.footer_in ul{
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;    
+}
+
+.footer_in a, li{
+    display: block;
+    color: #bbb;
+    margin: 0 5px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.footer_in a:hover{
+    color: #6b9b2e;
+}
+
+.footer_in p{
+    margin: 5px;
+    color: #eee;
+}
